@@ -1,4 +1,9 @@
 header {
     width: 100%;
-    background-color: aquamarine;
+    background-color: #319ef1;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
 }

@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import React from 'react'
+import 'normalize.css';
 import './App.css'
 import Main from './components/Main'
 import Header from './components/Header'

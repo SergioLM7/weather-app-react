@@ -1,4 +1,6 @@
 import React from "react";
+import 'normalize.css';
+import './WeatherCard.css';
 
 const WeatherCard = ({
   city,
@@ -52,9 +54,9 @@ const WeatherCard = ({
   const dateMDYHM = `${date.getDate()}-${date.getMonth() + 1}-${date.getFullYear()} ${date.getHours()}:${date.getMinutes()}${date.getMinutes()}`;
 
 
-  return <article>
+  return <article className='weather-card'>
     <h3>Date/Time: {dateMDYHM}</h3>
-    <img src={imageWeather} />
+    <img src={imageWeather} alt='weather icon' className="weather-icon"/>
     <p>Weather: {description}</p>
     <p>Clouds: {all}%</p>
     <p>Max./Min. Temp.: {tempCelsius(temp_max)}ºC / {tempCelsius(temp_min)}ºC</p>

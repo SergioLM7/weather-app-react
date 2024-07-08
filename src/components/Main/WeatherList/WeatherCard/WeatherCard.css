@@ -1,0 +1,79 @@
+/* CSS para WeatherCard */
+
+/* Mobile first */
+.weather-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #319ef1;
+    
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 16px 0;
+    text-align: center;
+  }
+  
+  .weather-icon {
+    width: 100px;
+    height: 100px;
+    margin: 16px 0;
+  }
+  
+  .weather-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+  }
+  
+  .weather-card p {
+    margin: 4px 0;
+    font-size: 0.9em;
+    gap:10px;
+  }
+  
+  /* Tablets and larger devices */
+  @media (min-width: 600px) {
+    .weather-card {
+      flex-direction: row;
+      justify-content: space-between;
+      text-align: left;
+    }
+  
+    .weather-icon {
+      width: 120px;
+      height: 120px;
+      margin: 0 16px 0 0;
+    }
+  
+    .weather-card h3 {
+      font-size: 1.4em;
+    }
+  
+    .weather-card p {
+      font-size: 1em;
+      margin: 8px 0;
+    }
+  }
+  
+  /* Desktops and larger devices */
+  @media (min-width: 1024px) {
+    .weather-card {
+      padding: 24px;
+      margin: 24px 0;
+    }
+  
+    .weather-icon {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .weather-card h3 {
+      font-size: 1.6em;
+    }
+  
+    .weather-card p {
+      font-size: 1.1em;
+      margin: 12px 0;
+    }
+  }
+  

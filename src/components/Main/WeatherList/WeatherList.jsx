@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from "react";
 import axios from 'axios'
 import { v4 as uuidv4 } from 'uuid';
+import 'normalize.css';
+import './WeatherList.css';
 import WeatherCard from './WeatherCard'
 
 const WeatherList = () => {
 
-  const [city, setCity] = useState('');
+  const [city, setCity] = useState('madrid');
   const [weatherInfo, setWeatherInfo] = useState([]); // Para guardar las predicciones
   const [userLocation, setUserLocation] = useState(null);
 

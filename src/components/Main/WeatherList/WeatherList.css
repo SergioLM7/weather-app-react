@@ -1,0 +1,79 @@
+:root {
+    --background-color: #ffffff;
+    --card-background: #f9f9f9;
+    --primary-color: #333333;
+    --secondary-color: #666666;
+    --accent-color: #007BFF;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+  }
+
+.searcher {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background: var(--background-color);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px var(--shadow-color);
+    text-align: center;
+  }
+  
+  .searcher form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .searcher label {
+    font-size: 1.2em;
+    margin-bottom: 12px;
+    color: var(--primary-color);
+  }
+  
+  .searcher input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 8px;
+    font-size: 1em;
+    margin-bottom: 20px;
+    transition: border-color 0.3s;
+  }
+  
+  .searcher input:focus {
+    border-color: var(--accent-color);
+    outline: none;
+  }
+  
+  .searcher h2 {
+    font-size: 1.8em;
+    margin: 20px 0;
+    color: var(--primary-color);
+  }
+  
+  .searcher p {
+    font-size: 1em;
+    color: var(--secondary-color);
+  }
+
+  @media (min-width: 600px) {
+    .searcher {
+      padding: 32px;
+    }
+  
+    .searcher label {
+      font-size: 1.4em;
+    }
+  
+    .searcher input {
+      font-size: 1.1em;
+    }
+  
+    .searcher h2 {
+      font-size: 2em;
+    }
+  
+    .searcher p {
+      font-size: 1.1em;
+    }
+  }

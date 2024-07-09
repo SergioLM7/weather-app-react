@@ -56,7 +56,7 @@
     color: var(--secondary-color);
   }
 
-  @media (min-width: 600px) {
+  @media (min-width: 650px) {
     .searcher {
       padding: 32px;
     }

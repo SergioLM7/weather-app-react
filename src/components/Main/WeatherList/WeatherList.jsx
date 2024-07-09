@@ -7,7 +7,7 @@ import WeatherCard from './WeatherCard'
 
 const WeatherList = () => {
 
-  const [city, setCity] = useState('madrid');
+  const [city, setCity] = useState('');
   const [weatherInfo, setWeatherInfo] = useState([]); // Para guardar las predicciones
   const [userLocation, setUserLocation] = useState(null);
 

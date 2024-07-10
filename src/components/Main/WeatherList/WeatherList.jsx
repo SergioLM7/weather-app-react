@@ -34,7 +34,7 @@ const WeatherList = () => {
   useEffect(() => {
     const convertGeolocation = async (latitude, longitude) => {
       try {
-        const res = await axios.get(`http://api.openweathermap.org/geo/1.0/reverse?lat=${latitude}&lon=${longitude}&appid=${import.meta.env.VITE_API_KEY}`);
+        const res = await axios.get(`https://api.openweathermap.org/geo/1.0/reverse?lat=${latitude}&lon=${longitude}&appid=${import.meta.env.VITE_API_KEY}`);
         const cityName = res.data[0].name;
         setCity(cityName);
       } catch (error) {
@@ -56,7 +56,7 @@ const WeatherList = () => {
   useEffect(() => {
     const fetchWeather = async () => {
       try {
-        const res = await axios.get(`http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${import.meta.env.VITE_API_KEY}`);
+        const res = await axios.get(`https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${import.meta.env.VITE_API_KEY}`);
         const weather = res.data.list;
         //await new Promise((resolve, reject) => setTimeout(resolve, 2000));
         setWeatherInfo(weather);

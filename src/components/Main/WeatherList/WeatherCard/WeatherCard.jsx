@@ -13,7 +13,7 @@ const WeatherCard = ({
   console.log(city)
 
   const tempCelsius = (celsius) => Math.round(celsius - 273);
-  const imageWeather = `http://openweathermap.org/img/w/${icon}.png`;
+  const imageWeather = `https://openweathermap.org/img/w/${icon}.png`;
   const windSpeed = (wind) => Math.round(wind * 3.6);
   let windDirection;
   const getWindDirection = (direction) => {

@@ -1,6 +1,6 @@
 <a id="readme-top"></a>
-# Weather App
-<a href="" target="_blank" align="center"/> <img src="./src/assets/weather-background-header.jpg" alt="banner readme"/></a> 
+# 🌤️ Weather App
+<a href="https://weatherappslm.netlify.app/" target="_blank" align="center"/> <img src="./src/assets/weather-background-header.jpg" alt="banner readme"/></a> 
 
 
 <!-- TABLE OF CONTENTS -->
@@ -13,14 +13,13 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
+    <li><a href="#usage">Usage</a></li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -32,9 +31,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+**Link**: https://weatherappslm.netlify.app/
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Weather App allows you to see the weather forecast for the next five days (with data details every three hours) for the city of your choice. The landing page will ask you to geolocate to show you the forecast for your city, otherwise it will show a default forecast.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -48,16 +47,25 @@ There are many great README templates available on GitHub; however, I didn't fin
 * <img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original-wordmark.svg" title="github" alt="github" width="40" height="40"/>&nbsp;
 * <img src="https://github.com/devicons/devicon/blob/master/icons/axios/axios-plain-wordmark.svg" title="axios" alt="axios" width="40" height="40"/>&nbsp;
 
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- USAGE EXAMPLES -->
+## Usage
+
+**Landing reaction**
+<br/>
+![](https://github.com/SergioLM7/weather-app-react/blob/main/src/assets/landing.gif)
+
+**Searching forecast of any city**
+<br/>
+![](https://github.com/SergioLM7/weather-app-react/blob/main/src/assets/ejemplo1.gif)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+If you want to try it yourself, please feel free to do it following the next steps. You will run the project locally and will be able to make any changes.
 
 ### Installation
 
@@ -78,17 +86,6 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    npm run dev
    ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

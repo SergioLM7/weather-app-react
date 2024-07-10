@@ -110,8 +110,8 @@ Don't forget to give the project a star! Thanks again!
 <!-- CONTACT -->
 ## Contact
 
-Sergio Lillo - [LinkedIn](https://www.linkedin.com/in/lillosergio/) - sergiolillom@gmail.com
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+**Sergio Lillo, Full Stack Developer**
+<a href="https://www.linkedin.com/in/lillosergio/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/1200px-LinkedIn_icon.svg.png" width=30px, height=30px/></a> - sergiolillom@gmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

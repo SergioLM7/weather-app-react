@@ -21,10 +21,12 @@ const WeatherList = () => {
           },
           (error) => {
             console.error('Error getting user location:', error);
+            setCity('Roma');
           }
         );
       } else {
         console.error('Geolocation is not supported by this browser.');
+        setCity('Roma');
       }
     };
 
@@ -65,7 +67,9 @@ const WeatherList = () => {
         setWeatherInfo([]);
       }
     }
+    if (city != '') {
     fetchWeather();
+  }
   }, [city]);
 
 
